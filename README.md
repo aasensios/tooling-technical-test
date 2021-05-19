@@ -16,7 +16,7 @@ pip install -r requirements.txt
 Run the linter and the tests:
 ```sh
 pylint *.py
-pytest
+pytest -s
 ```
 
 Inspect the code of the implementations (`*.py` files) and check the [responses](fundamentals_responses.txt) to the fundamentals questions.

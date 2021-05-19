@@ -18,11 +18,11 @@ class FirstInFirstOut:
         The oldest element is placed at the last index of the queue list.'''
         return self.queue.pop()
 
-    def size(self):
+    def size(self) -> int:
         '''Get the number of elements.'''
         return len(self.queue)
 
-    def addition_time(self, position: int = 0):
+    def addition_time(self, position: int = 0) -> datetime:
         '''Get the datetime when any element present on the FIFO was added.
         If no position is specified by default return the last element
         addition.'''
