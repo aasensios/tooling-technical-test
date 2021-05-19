@@ -19,4 +19,4 @@ pylint *.py
 pytest -s
 ```
 
-Inspect the code of the implementations (`*.py` files) and check the [responses](fundamentals_responses.txt) to the fundamentals questions.
+Inspect the code implementations (`*.py` files) and check the [responses](fundamentals_responses.txt) to the questions about fundamentals.
